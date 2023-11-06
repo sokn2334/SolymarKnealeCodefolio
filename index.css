@@ -1,0 +1,50 @@
+
+/*------------------------Main CSS Styling------------------------*/
+html{
+  background-color: white;
+}
+
+/*------------------------Text Formating------------------------*/
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+div {
+    margin-left:25%;
+    padding:25px 16px;
+    height:1000px;
+}
+  
+/*------------------------Navigation Bar------------------------*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+ul p {
+    padding: 25px 15%;
+}
+  
+li a {
+    display: block;
+    color: #000;
+    padding: 25px 15%;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
